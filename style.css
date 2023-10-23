@@ -1,0 +1,42 @@
+
+.mugshot{
+    height: 200px;
+    float: left;
+}
+.container{
+    display: flex;
+    padding: 50px;
+    gap: 5px;
+}
+.right{
+    background-color: black;
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+html{
+    font-family: poppins; 
+}
+
+@media screen and (max-width: 650px)
+{
+    .container{
+        flex-direction: column;
+    }
+    .side{
+        flex-direction: column;
+    }
+    .right{
+        margin-top: -25px;
+        
+    }
+    p{
+        text-align: justify;
+    }
+   
+
+}
